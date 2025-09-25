@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bắn Trứng Khủng Long Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Bắn Trứng</h1>
+        <div id="game-info">
+            <div class="info-box">
+                <p>Điểm: <span id="score">0</span></p>
+            </div>
+            <div class="info-box">
+                <p>Trứng tiếp theo:</p>
+                <canvas id="nextEggCanvas" width="40" height="40"></canvas>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="480" height="600"></canvas>
+        <div id="gameOverMessage">
+            Game Over!
+            <button id="restartButton">Chơi lại</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
